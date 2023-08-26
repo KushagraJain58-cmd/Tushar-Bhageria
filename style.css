@@ -17,30 +17,7 @@ body {
     width: 80vw;
     object-fit: cover;
 }
-@media screen and (max-width:930px){
-   .card img {
-    height: 70vh;
-    width: 80vw;
-}
-}
-@media screen and (max-width:800px){
-   .card img {
-    height: 50vh;
-    width: 80vw;
-}
-}
-@media screen and (max-width:580px){
-   .card img {
-    height: 40vh;
-    width: 90vw;
-}
-}
-@media screen and (max-width:440px){
-   .card img {
-    height: 30vh;
-    width: 90vw;
-}
-}
+
 footer {
     height: 100%;
     width: 100%;
@@ -51,4 +28,32 @@ footer {
     margin: 0;
     color: #fff;
     font-size: 20px;
+}
+
+@media screen and (max-width:930px){
+   .card img {
+    height: 70vh;
+    width: 80vw;
+}
+}
+@media screen and (max-width:800px){
+   .card img {
+    height: 50vh;
+    width: 80vw;
+    font-size: 17px;
+}
+}
+@media screen and (max-width:580px){
+   .card img {
+    height: 40vh;
+    width: 90vw;
+    font-size: 15px;
+}
+}
+@media screen and (max-width:440px){
+   .card img {
+    height: 30vh;
+    width: 90vw;
+    font-size: 12px;
+}
 }
